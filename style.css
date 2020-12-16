@@ -1,26 +1,22 @@
 *{
   margin: 0px;
   padding: 0px;
+
 }
 .nav {
   position: absolute;
+  background-color: #272424;
   display: inline-flex;
   width: 100%;
   align-items: center;
   cursor: default;
-}
-.top video {
-  width: 100%;
-}
-.top {
-  display: inline-flex;
 }
 .nav h1 {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-size: 30px;
   color: #FFFFFF;
-  padding: 5px 8px;
+  padding: 10px 5px;
 }
 .navOptions {
   font-family: 'Montserrat', sans-serif;
@@ -38,7 +34,6 @@
   color:white;
   transition: 0.2s;
 }
-
 #selected {
   color: #FFFFFF;
   border-bottom: 2px solid #DAA520;
