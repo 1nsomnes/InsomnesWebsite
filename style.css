@@ -1,43 +1,86 @@
 *{
-  margin: 0px;
   padding: 0px;
-
+  margin: 0px;
 }
-.nav {
-  position: absolute;
-  background-color: #272424;
+body {
+  background-color: #000000;
+}
+.navbar {
+  width:100%;
   display: inline-flex;
-  width: 100%;
+  background-color: #272424;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
   align-items: center;
   cursor: default;
+  height: 80px;
 }
-.nav h1 {
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
-  font-size: 30px;
-  color: #FFFFFF;
-  padding: 10px 5px;
-}
-.navOptions {
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
-  text-decoration: none;
+.navbar ul {
   margin-left: auto;
+  margin: 0px;
 }
-.navOptions a {
+.navbar a {
   text-decoration: none;
   color: #C9BFBF;
-  margin: 10px;
+  padding: 0px 5px;
 }
-
-.navOptions a:hover {
+.navbar a:hover {
   color:white;
-  transition: 0.2s;
+}
+#logo {
+  color: #FFFFFF;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 8px;
+  font-size: 25px;
 }
 #selected {
-  color: #FFFFFF;
-  border-bottom: 2px solid #DAA520;
-  padding: 4px 3px;
-  color: #DAA520;
   cursor:default;
+  color: #DAA520;
+  padding: 4px 2px;
+  border-bottom: 2px solid #DAA520;
+}
+#selected:hover {
+  color: #DAA520;
+}
+/*
+Top Section
+*/
+.topsection {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  display: inline-block;
+  position: absolute;
+  top:35%;
+  left: 15%;
+}
+.topsection h1 {
+  display: inline;
+  text-transform: lowercase;
+  font-size: 50px;
+}
+.topsection p {
+  display: block;
+  font-size: 30px;
+  margin-top: 10px;
+}
+.topsection .seperator {
+  position: absolute;
+  height: 2px;
+  width: 20%;
+  background-color:white;
+}
+/*
+Font Size for Different Screens
+*/
+@media (max-width: 576px) {
+  .topsection h1 {
+    font-size: 40px;
+  }
+  .topsection p {
+    font-size: 20px;
+  }
+  .navbar ul{
+    visibility: hidden;
+  }
 }
