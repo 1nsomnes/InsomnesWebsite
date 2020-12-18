@@ -1,7 +1,10 @@
+body {
+  background-color: #000000;
+}
 .navbar {
   width:100%;
   display: inline-flex;
-  background-color: #272424;
+  background-color: #1E1E1E;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   align-items: center;

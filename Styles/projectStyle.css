@@ -1,0 +1,31 @@
+.projectsContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.projectsContainer .project {
+  flex: 1 1 500px;
+  background-color: #333333;
+  border-radius: 7px;
+  padding: 0px;
+  margin: 15px;
+  color: white;
+  display: block;
+}
+.projectsContainer .project img {
+  float: left;
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 4px;
+}
+.projectsContainer .project h2 {
+  margin-top: 12px;
+  margin-bottom: 0px;
+  margin-left:10px;
+}
+.projectsContainer .project p {
+  padding-left:10px;
+}
