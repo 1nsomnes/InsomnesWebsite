@@ -17,8 +17,8 @@
   float: left;
   height: 100px;
   width: 100px;
-  background-color: white;
   margin: 20px;
+  margin-bottom: 0px;
   border-radius: 4px;
 }
 .projectsContainer .project h2 {
@@ -27,5 +27,5 @@
   margin-left:10px;
 }
 .projectsContainer .project p {
-  padding-left:10px;
+  padding: 0px 10px;
 }

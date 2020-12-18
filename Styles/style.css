@@ -5,6 +5,9 @@
 body {
   background-color: #000000;
 }
+html,body {
+  height: 100%;
+}
 /*
 Top Section
 */
@@ -31,6 +34,20 @@ Top Section
   height: 2px;
   width: 20%;
   background-color:white;
+}
+.stuff {
+  height: 100%;
+}
+.bg {
+  background-image: url("../Assets/lambo.jpg");
+
+  min-height: 100%;
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+
 }
 /*
 Font Size for Different Screens
