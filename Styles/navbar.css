@@ -23,6 +23,10 @@ body {
 .navbar a:hover {
   color:white;
 }
+.navbar label {
+  padding: 0px;
+  margin: 0px;
+}
 #logo {
   color: #FFFFFF;
   padding: 0px;
@@ -43,7 +47,7 @@ body {
 If the screen is to small hide navbar
 */
 @media (max-width: 576px) {
-  .navbar ul{
+  .navbar ul a{
     visibility: hidden;
   }
 }
